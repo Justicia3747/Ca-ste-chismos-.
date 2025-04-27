@@ -1,1 +1,40 @@
-# Ca-ste-chismos-.
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Caíste chismos@!</title>
+    <style>
+        /* Estilo para el fondo con la imagen del mono riendo */
+        body {
+            background-image: url('https://example.com/mono-riendo.jpg'); /* Cambia esta URL por una de un mono riendo */
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // Mostrar el mensaje de alerta inicial
+        alert("¡Caíste chismos@! 🤣🤣🤣 \nY sabías que tus papás no te quieren!");
+
+        // Reproducir el sonido de risa
+        var audio = new Audio('https://www.soundjay.com/button/beep-07.wav'); // Cambia esta URL por un sonido de risa real
+        audio.play();
+
+        // Después de 20 segundos mostrar el mensaje "¡Pendejo!" y redirigir
+        setTimeout(function() {
+            alert("¡Pendejo!"); // Mostrar mensaje de broma
+            window.location.href = "https://www.google.com"; // Redirigir después de mostrar el mensaje
+        }, 20000); // 20000 milisegundos = 20 segundos
+    </script>
+</body>
+</html>
